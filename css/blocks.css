@@ -62,6 +62,15 @@ section.block-desc .infoXP {
     margin-right:1rem;
 }
 
+@media screen and (max-witdh:500px) {
+    .XP div.detail_xp {
+        font-size:1.1rem;
+    }
+    .XP div.detail_xp i {
+        font-size:2rem;
+    }
+}
+
 /**
  * Skill
  */
