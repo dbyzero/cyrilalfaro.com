@@ -1,0 +1,220 @@
+/**
+ * Description
+ */
+section.block-desc {
+    /*background-color: rgba(0,0,0,0.8);*/
+    min-height: 100vh;
+    flex:1;
+    color:#ddd;
+    background-color: rgba(0,0,0,0.6);
+}
+
+section.block-desc .mainTitle {
+    text-align: center;
+}
+
+section.block-desc .infoXP {
+    text-align: center;
+    padding: 0.75rem 0rem;
+}
+
+.block-desc header {
+    font-size:4rem;
+    text-transform: uppercase;
+    line-height: 3.6rem;
+    padding-bottom:1rem;
+}
+
+.block-desc header img {
+    filter: brightness(0.9);
+    opacity: 0.9;
+    width:14rem;
+    height:14rem;
+    margin-bottom: 3rem;
+    border-radius: 7rem;
+    background-position: right 10px;
+    transition: 400ms;
+}
+
+.block-desc .mainTitle {
+    text-transform: uppercase;
+    font-size:2rem;
+    line-height: 2rem;
+}
+
+.XP {
+    margin-top:1.6rem;
+}
+
+.XP .yearXP {
+    font-size:1.6rem;
+    margin-bottom:2rem;
+}
+
+.XP div.detail_xp {
+    font-size:1.1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.XP div.detail_xp i {
+    font-size:2rem;
+    margin-right:1rem;
+}
+
+/**
+ * Skill
+ */
+
+.block-skills {
+    flex:1;
+    background-color: rgba(0,0,0,0.77);
+    font-family: monospace;
+    color:#ddd;
+    padding:0 3rem;
+}
+
+.block-skills .instruction {
+    font-size:0.75rem;
+    font-style: italic;
+    margin-top:1.5rem;
+    margin-bottom:-2rem;
+    text-align:left;
+    opacity: 0.8;
+}
+
+.block-skills .columns {
+    flex-wrap: wrap;
+}
+
+.block-skills .columns .column {
+    padding: 1rem 0;
+    display:flex;
+    flex-direction: row;
+}
+
+.block-skills .columns .column div {
+    min-width: 200px;
+    flex:1;
+}
+
+.block-skills .columns .column div ul {
+    padding-bottom:1rem;
+}
+
+@media screen and (max-width: 500px) {
+    .block-skills .columns .column {
+        display:block;
+    }
+}
+
+.block-skills .skill-title {
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.skill-section {
+    font-weight: bold;
+}
+
+/**
+ * Project
+ */
+
+.block-project {
+    color:#ddd;
+    font-family: 'geo';
+    flex:1;
+    background-color: rgba(0,0,0,0.6);
+    font-size:1.4rem;
+}
+
+.block-project header {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.block-project small,
+.block-project strong {
+    color:#ddd;
+}
+
+.block-project .content h4 {
+    color:#ddd;
+}
+
+.block-project .content a {
+    font-family: monospace;
+    font-size:1rem;
+    color:#ddd;
+    font-weight: bold;
+    transition: 200ms;
+}
+
+.block-project .content a:hover {
+    color:orange;
+}
+
+.block-project .content .name-tag {
+    color:white;
+    line-height: 1.3rem;
+}
+
+.block-project .skill {
+    white-space: nowrap;
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 0 0.2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .block-project .media {
+        flex-direction: column;
+    }
+    .block-project .media-left {
+        margin:0 auto;
+    }
+}
+
+/**
+ * Contact
+ */
+
+.block-contact {
+    color:#ddd;
+    background-color: rgba(0,0,0,0.77);
+}
+
+.block-contact .middle-info {
+    font-family: 'geo';
+    font-size:1.4rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.block-contact .middle-info a {
+    flex:1;
+    font-size:3rem;
+    transition: 200ms;
+    color:#ddd;
+}
+
+.block-contact .middle-info a:hover {
+    color:orange;
+}
+
+.block-contact .hero-body .right-info {
+    text-align: right;
+    flex:1;
+    font-size:1rem;
+    font-family: monospace;
+}
+
+.block-contact .hero-body .right-info i {
+    font-size:1rem;
+    margin:0;
+}

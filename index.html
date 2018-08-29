@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Site personnel de Cyril ALFARO - Développeur fullstack / DevOps / Lead developpeur">
+        <title>Cyril ALFARO - Devops / Fullstack / Lead développeur</title>
+        <script src="./js/navBurger.js"></script>
+        <script src="./js/smoothScroll.js"></script>
+        <script src="./js/skillToggler.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/navbar.css">
+        <link rel="stylesheet" href="./css/blocks.css">
+    </head>
+    <body>
+        <section class="main">
+            <nav class="navbar" aria-label="main navigation">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="/">
+                        # cyril alfaro
+                    </a>
+                    <a id="navbar-burger" role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="navbar-menu" id="navbar-menu">
+                    <div class="navbar-end">
+                        <div class="navbar-item is-tab">
+                            <a id="skill-button">
+                                Compétences
+                            </a>
+                        </div>
+                        <div class="navbar-item is-tab">
+                            <a id="project-button">
+                                Projets
+                            </a>
+                        </div>
+                        <div class="navbar-item is-tab">
+                            <a id="contact-button">
+                                Contact
+                            </a>
+                        </div>
+                        <div class="navbar-item is-tab">
+                            <a href="./assets/cv.pdf" target="_blank" id="cv-button">
+                                CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <section class="hero block-desc">
+                <div class="hero-body container is-fluid  block-desc">
+                    <div class="column infoXP">
+                        <header class="text-shadow">
+                            <div class="photo">
+                                <img src="./assets/profile.png" alt="cyril alfaro">
+                            </div>
+                            <div class="name">
+                                Cyril ALFARO
+                            </div>
+                        </header>
+                        <header class="mainTitle text-shadow">
+                            Développeur full stack
+                        </header>
+                        <section class="XP">
+                            <div class="yearXP text-shadow">
+                                15 ans d'éxpérience
+                            </div>
+                            <div class="detail_xp columns text-shadow">
+                                <div class="column">
+                                    <i class="fas fa-users text-shadow"></i><br>3 ans Lead dev
+                                </div>
+                                <div class="column">
+                                    <i class="fas fa-chalkboard-teacher text-shadow"></i><br>2 ans Architecte logiciel
+                                </div>
+                                <div class="column">
+                                    <i class="fas fa-server text-shadow"></i><br>2 ans Dev Ops
+                                </div>
+                                <div class="column">
+                                    <i class="fas fa-laptop text-shadow"></i><br>8 ans Développeur
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            <div id="skills-anchor"></div>
+            <section class="hero is-fluid block-skills" id="skills">
+                <div class="instruction">
+                    (compétences cliquables pour la partie projet)
+                </div>
+                <div class="hero-body columns is-mobile">
+                    <div class="column">
+                        <div>
+                            <div class="skill-title">FRONT:</div>
+                            <ul>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">javascript:</li>
+                                <li class="skill" data-tag="# vanillajs"># vanillajs</li>
+                                <li class="skill" data-tag="# react"># react</li>
+                                <li class="skill" data-tag="# redux"># redux</li>
+                                <li class="skill" data-tag="# angular"># angular</li>
+                                <li class="skill" data-tag="# jquery"># jquery</li>
+                                <li class="skill" data-tag="# ionic"># ionic</li>
+                                <li class="skill" data-tag="# webgl"># webgl</li>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">css:</li>
+                                <li class="skill" data-tag="# bulma"># bulma</li>
+                                <li class="skill" data-tag="# foundation"># foundation</li>
+                                <li class="skill" data-tag="# bootstrap"># bootstrap</li>
+                                <li class="skill" data-tag="# flexbox"># flexbox</li>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">packager/cli:</li>
+                                <li class="skill" data-tag="# npm"># npm</li>
+                                <li class="skill" data-tag="# webpack"># webpack</li>
+                                <li class="skill" data-tag="# cordova"># cordova</li>
+                                <li class="skill" data-tag="# gulp"># gulp</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="skill-title">BACK:</div>
+                            <ul>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">php:</li>
+                                <li class="skill" data-tag="# zend framework"># zend framework</li>
+                                <li class="skill" data-tag="# slim"># slim</li>
+                                <li class="skill" data-tag="# laravel"># laravel</li>
+                                <li class="skill" data-tag="# cakephp"># cakephp</li>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">node:</li>
+                                <li class="skill" data-tag="# express"># express</li>
+                                <li class="skill" data-tag="# restify"># restify</li>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">python:</li>
+                                <li class="skill" data-tag="# django"># django</li>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">database:</li>
+                                <li class="skill" data-tag="# mysql/mariadb"># mysql/mariadb</li>
+                                <li class="skill" data-tag="# postgresql"># postgresql</li>
+                                <li class="skill" data-tag="# cassandra"># cassandra</li>
+                                <li class="skill" data-tag="# mongo"># mongo</li>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">bash:</li>
+                                <li class="skill" data-tag="# ffmpeg"># ffmpeg</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div>
+                            <div class="skill-title">DEVOPS/SYSADMIN:</div>
+                            <ul>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">services:</li>
+                                <li class="skill" data-tag="# docker"># docker</li>
+                                <li class="skill" data-tag="# jenkins"># jenkins</li>
+                                <li class="skill" data-tag="# fastlane"># fastlane</li>
+                                <li class="skill" data-tag="# nginx"># nginx</li>
+                                <li class="skill" data-tag="# apache"># apache</li>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">os:</li>
+                                <li class="skill" data-tag="# debian"># debian</li>
+                                <li class="skill" data-tag="# linux"># other linux</li>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">security:</li>
+                                <li class="skill" data-tag="# nagios"># nagios</li>
+                                <li class="skill" data-tag="# borg"># borg</li>
+                                <li class="skill" data-tag="# iptable"># iptable</li>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">network:</li>
+                                <li class="skill" data-tag="# tcpdump/wireshark"># tcpdump/wireshark</li>
+                                <li class="skill" data-tag="# netstat/nmap"># netstat/nmap</li>
+                                <li class="skill" data-tag="# netools"># netools</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="skill-title">META:</div>
+                            <ul>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">project:</li>
+                                <li class="skill" data-tag="# scrum"># scrum</li>
+                                <li class="skill" data-tag="# silo"># silo</li>
+                                <li class="skill" data-tag="# xp"># xp</li>
+                                <li class="skill" data-tag="# gant"># gant</li>
+                                <li class="skill" data-tag="# merise"># merise</li>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">ide:</li>
+                                <li class="skill" data-tag="# vim"># vim</li>
+                                <li class="skill" data-tag="# sublime"># sublime</li>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">repository:</li>
+                                <li class="skill" data-tag="# git"># git</li>
+                                <li class="skill" data-tag="# svn"># svn</li>
+                                <li>&nbsp;</li>
+                                <li class="skill-section">bushido:</li>
+                                <li class="skill" data-tag="# k.i.s.s"># k.i.s.s</li>
+                                <li class="skill" data-tag="# simple > easy"># simple > easy</li>
+                                <li class="skill" data-tag="# css > js"># css > js</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="hero is-fluid block-project" id="projects">
+                <div class="hero-body text-shadow">
+                    <header>
+                        Quelques projets
+                    </header>
+                    <article class="media">
+                        <figure class="media-left">
+                            <p class="image is-128x128">
+                              <img src="./assets/iotvalley.png" alt="iotvalley">
+                            </p>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h4>IoT Rocket</h4>
+                                <p class="name-tag">
+                                    <span class="skill" data-tag="# cto">#cto</span>
+                                    <span class="skill" data-tag="# react">#react</span>
+                                    <span class="skill" data-tag="# redux">#redux</span>
+                                    <span class="skill" data-tag="# jquery">#jquery</span>
+                                    <span class="skill" data-tag="# bulma">#bulma</span>
+                                    <span class="skill" data-tag="# flexbox">#flexbox</span>
+                                    <span class="skill" data-tag="# npm">#npm</span>
+                                    <span class="skill" data-tag="# webpack">#webpack</span>
+                                    <span class="skill" data-tag="# django">#django</span>
+                                    <span class="skill" data-tag="# postgresql">#postgresql</span>
+                                    <span class="skill" data-tag="# docker">#docker</span>
+                                    <span class="skill" data-tag="# nginx">#nginx</span>
+                                    <span class="skill" data-tag="# debian">#debian</span>
+                                    <span class="skill" data-tag="# linux">#linux</span>
+                                    <span class="skill" data-tag="# scrum">#scrum</span>
+                                    <span class="skill" data-tag="# gant">#gant</span>
+                                    <span class="skill" data-tag="# merise">#merise</span>
+                                    <span class="skill" data-tag="# vim">#vim</span>
+                                    <span class="skill" data-tag="# sublime">#sublime</span>
+                                    <span class="skill" data-tag="# git">#git</span>
+                                </p>
+                                <p>
+                                    Boilerplate permettant aux startups de l'IoT Valley de partir d'une base de code solide pour rapidement produire la réponse au problème qu'elles adressent.<br/>
+                                    <strong>Mission:</strong> gérer l'équipe de dev du projet, faire l'architecture de toute la stack, former et aider sur les technos utilisées. Avoir une base de code impécable et bien documentée, la cible étant des développeurs prenant en main le code.<br/>
+                                    IoT Rocket gère les authentifications, la notion de workspace client, le rapatriment des données de device sous forme de dashboard ou d'alerte.
+                            </div>
+                        </div>
+                    </article>
+                    <article class="media">
+                        <figure class="media-left">
+                            <p class="image is-128x128">
+                              <img src="./assets/bridget.png" alt="bridget">
+                            </p>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h4>Bridget.ly</h4>
+                                <p class="name-tag">
+                                    <span class="skill" data-tag="# cto">#cto</span>
+                                    <span class="skill" data-tag="# react">#react</span>
+                                    <span class="skill" data-tag="# redux">#redux</span>
+                                    <span class="skill" data-tag="# jquery">#jquery</span>
+                                    <span class="skill" data-tag="# foundation">#foundation</span>
+                                    <span class="skill" data-tag="# flexbox">#flexbox</span>
+                                    <span class="skill" data-tag="# npm">#npm</span>
+                                    <span class="skill" data-tag="# webpack">#webpack</span>
+                                    <span class="skill" data-tag="# slim">#slim</span>
+                                    <span class="skill" data-tag="# restify">#restify</span>
+                                    <span class="skill" data-tag="# cassandra">#cassandra</span>
+                                    <span class="skill" data-tag="# docker">#docker</span>
+                                    <span class="skill" data-tag="# jenkins">#jenkins</span>
+                                    <span class="skill" data-tag="# nginx">#nginx</span>
+                                    <span class="skill" data-tag="# debian">#debian</span>
+                                    <span class="skill" data-tag="# linux">#linux</span>
+                                    <span class="skill" data-tag="# borg">#borg</span>
+                                    <span class="skill" data-tag="# tcpdump/wireshark">#tcpdump/wireshark</span>
+                                    <span class="skill" data-tag="# netstat/nmap">#netstat/nmap</span>
+                                    <span class="skill" data-tag="# netools">#netools</span>
+                                    <span class="skill" data-tag="# xp">#xp</span>
+                                    <span class="skill" data-tag="# merise">#merise</span>
+                                    <span class="skill" data-tag="# vim">#vim</span>
+                                    <span class="skill" data-tag="# sublime">#sublime</span>
+                                    <span class="skill" data-tag="# git">#git</span>
+                                </p>
+                                <p>
+                                    SaaS de mise en relation de company ayant des tailles / CA ou cibles similaires.<br/>
+                                    <strong>Mission:</strong> Faire seul l'architecture, le dev front et back, le déploiement et la sécurité.<br/>
+                                    Bridget est sur une architecture à très haute scalabilité horizontale grâce à Docker, Cassandra et Google Cloud.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="media">
+                        <figure class="media-left">
+                            <p class="image is-128x128">
+                              <img src="./assets/siberiancms.png" alt="siberiancms">
+                            </p>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h4>Siberian CMS</h4>
+                                <p class="name-tag">
+                                    <span class="skill" data-tag="# cto">#cto</span>
+                                    <span class="skill" data-tag="# angular">#angular</span>
+                                    <span class="skill" data-tag="# jquery">#jquery</span>
+                                    <span class="skill" data-tag="# bootstrap">#bootstrap</span>
+                                    <span class="skill" data-tag="# flexbox">#flexbox</span>
+                                    <span class="skill" data-tag="# ionic">#ionic</span>
+                                    <span class="skill" data-tag="# cordova">#cordova</span>
+                                    <span class="skill" data-tag="# zend framework">#zend framework</span>
+                                    <span class="skill" data-tag="# express">#express</span>
+                                    <span class="skill" data-tag="# restify">#restify</span>
+                                    <span class="skill" data-tag="# mysql/mariadb">#mysql/mariadb</span>
+                                    <span class="skill" data-tag="# docker">#docker</span>
+                                    <span class="skill" data-tag="# jenkins">#jenkins</span>
+                                    <span class="skill" data-tag="# fastlane">#fastlane</span>
+                                    <span class="skill" data-tag="# nginx">#nginx</span>
+                                    <span class="skill" data-tag="# apache">#apache</span>
+                                    <span class="skill" data-tag="# debian">#debian</span>
+                                    <span class="skill" data-tag="# linux">#linux</span>
+                                    <span class="skill" data-tag="# nagios">#nagios</span>
+                                    <span class="skill" data-tag="# borg">#borg</span>
+                                    <span class="skill" data-tag="# iptable">#iptable</span>
+                                    <span class="skill" data-tag="# tcpdump/wireshark">#tcpdump/wireshark</span>
+                                    <span class="skill" data-tag="# netstat/nmap">#netstat/nmap</span>
+                                    <span class="skill" data-tag="# netools">#netools</span>
+                                    <span class="skill" data-tag="# scrum">#scrum</span>
+                                    <span class="skill" data-tag="# silo">#silo</span>
+                                    <span class="skill" data-tag="# vim">#vim</span>
+                                    <span class="skill" data-tag="# sublime">#sublime</span>
+                                    <span class="skill" data-tag="# git">#git</span>
+                                </p>
+                                <p>
+                                    CMS permettant de créer des applications mobiles cross platforme sans compétence technique.<br/>
+                                    <strong>Mission:</strong> Reprendre en main l'équipe de développement et l'aider, créer un cycle d'intégration continue. Automatiser les builds sur iOS pour l'apple store, architecturer le futur du CMS.
+                                </p>
+                            </div>
+                      </div>
+                    </article>
+                    <article class="media">
+                        <figure class="media-left">
+                            <p class="image is-128x128">
+                              <img src="./assets/chroma.png" alt="iwd">
+                            </p>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h4>Chroma website</h4>
+                                <p class="name-tag">
+                                    <span class="skill" data-tag="# devops">#front</span>
+                                    <span class="skill" data-tag="# vanillajs">#vanillajs</span>
+                                    <span class="skill" data-tag="# webgl">#webgl</span>
+                                    <span class="skill" data-tag="# flexbox">#flexbox</span>
+                                    <span class="skill" data-tag="# nginx">#nginx</span>
+                                    <span class="skill" data-tag="# debian">#debian</span>
+                                    <span class="skill" data-tag="# other linux">#other linux</span>
+                                    <span class="skill" data-tag="# vim">#vim</span>
+                                    <span class="skill" data-tag="# git">#git</span>
+                                </p>
+                                <p>
+                                    Portail du vidéaste Karim Debbache et de son équipe.<br/>
+                                    <strong>Mission:</strong> Rendre le portail atypique en incluant un background kaleidoscopic en WebGL. Ajout d'un minijeu en javascript vanilla pour la page de maintenance, page accéssible maintenant depuis le portail.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="media">
+                        <figure class="media-left">
+                            <p class="image is-128x128">
+                              <img src="./assets/iwd.png" alt="iwd">
+                            </p>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h4>Retail Network</h4>
+                                <p class="name-tag">
+                                    <span class="skill" data-tag="# devops">#devops</span>
+                                    <span class="skill" data-tag="# fullstack">#fullstack</span>
+                                    <span class="skill" data-tag="# vanillajs">#vanillajs</span>
+                                    <span class="skill" data-tag="# react">#react</span>
+                                    <span class="skill" data-tag="# jquery">#jquery</span>
+                                    <span class="skill" data-tag="# bootstrap">#bootstrap</span>
+                                    <span class="skill" data-tag="# flexbox">#flexbox</span>
+                                    <span class="skill" data-tag="# cordova">#cordova</span>
+                                    <span class="skill" data-tag="# npm">#npm</span>
+                                    <span class="skill" data-tag="# webpack">#webpack</span>
+                                    <span class="skill" data-tag="# gulp">#gulp</span>
+                                    <span class="skill" data-tag="# zend framework">#zend framework</span>
+                                    <span class="skill" data-tag="# mysql/mariadb">#mysql/mariadb</span>
+                                    <span class="skill" data-tag="# docker">#docker</span>
+                                    <span class="skill" data-tag="# jenkins">#jenkins</span>
+                                    <span class="skill" data-tag="# nginx">#nginx</span>
+                                    <span class="skill" data-tag="# apache">#apache</span>
+                                    <span class="skill" data-tag="# debian">#debian</span>
+                                    <span class="skill" data-tag="# linux">#linux</span>
+                                    <span class="skill" data-tag="# nagios">#nagios</span>
+                                    <span class="skill" data-tag="# gant">#gant</span>
+                                    <span class="skill" data-tag="# merise">#merise</span>
+                                    <span class="skill" data-tag="# vim">#vim</span>
+                                    <span class="skill" data-tag="# svn">#svn</span>
+                                </p>
+                                <p>
+                                    SaaS pour le retail permettant de gérer les points de ventes pour de nombreuses chaines (cf : <a target="_blank" href="https://iwd.io/about#clients">https://iwd.io/about#clients</a>).<br/>
+                                    <strong>Mission:</strong> Intégrer l'équipe de développement en tant que sénior fullstack. Spécialisation dans un second temps en DevOPS.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="media">
+                        <figure class="media-left">
+                            <p class="image is-128x128">
+                              <img src="./assets/ratp.png" alt="ratp">
+                            </p>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h4>Mannip</h4>
+                                <p class="name-tag">
+                                    <span class="skill" data-tag="# fullstack">#fullstack</span>
+                                    <span class="skill" data-tag="# vanillajs">#vanillajs</span>
+                                    <span class="skill" data-tag="# jquery">#jquery</span>
+                                    <span class="skill" data-tag="# cakephp">#cakephp</span>
+                                    <span class="skill" data-tag="# postgresql">#postgresql</span>
+                                    <span class="skill" data-tag="# apache">#apache</span>
+                                    <span class="skill" data-tag="# tcpdump/wireshark">#tcpdump/wireshark</span>
+                                    <span class="skill" data-tag="# netstat/nmap">#netstat/nmap</span>
+                                    <span class="skill" data-tag="# netools">#netools</span>
+                                    <span class="skill" data-tag="# gant">#gant</span>
+                                    <span class="skill" data-tag="# merise">#merise</span>
+                                    <span class="skill" data-tag="# vim">#vim</span>
+                                    <span class="skill" data-tag="# svn">#svn</span>
+                                </p>
+                                <p>
+                                    SaaS de visualisation du comportement des rames de métro automatisées sur la ligne 1 et 14.<br/>
+                                    <strong>Mission:</strong> Reverse engenerring et parsage automatisé des 2 millions de ligne de logs reçues quotidiennement, dans le but de montrer le comportement des rames et portes pallières pour les équipes d'ingénieurs.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="media">
+                        <figure class="media-left">
+                            <p class="image is-128x128">
+                              <img src="./assets/supersoluce.png" alt="supersoluce">
+                            </p>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h4>Supersoluce CDN</h4>
+                                <p class="name-tag">
+                                    <span class="skill" data-tag="# fullstack">#fullstack</span>
+                                    <span class="skill" data-tag="# vanillajs">#vanillajs</span>
+                                    <span class="skill" data-tag="# jquery">#jquery</span>
+                                    <span class="skill" data-tag="# ffmpeg">#ffmpeg</span>
+                                    <span class="skill" data-tag="# bootstrap">#bootstrap</span>
+                                    <span class="skill" data-tag="# zend framework">#zend framework</span>
+                                    <span class="skill" data-tag="# mysql/mariadb">#mysql/mariadb</span>
+                                    <span class="skill" data-tag="# mongo">#mongo</span>
+                                    <span class="skill" data-tag="# nginx">#nginx</span>
+                                    <span class="skill" data-tag="# apache">#apache</span>
+                                    <span class="skill" data-tag="# debian">#debian</span>
+                                    <span class="skill" data-tag="# gant">#gant</span>
+                                    <span class="skill" data-tag="# vim">#vim</span>
+                                    <span class="skill" data-tag="# svn">#svn</span>
+                                </p>
+                                <p>
+                                    CDN centralisant les screenshots et vidéos pour les sites supersoluce et gamelove.<br/>
+                                    <strong>Mission:</strong> Construire une plateforme d'encodage de vidéo capable d'ajouter watermark, opening et ending. Qualifier les screenshots et vidéos envoyées et construire une passerelle de synchronisation avec les sites satellites.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="media">
+                        <figure class="media-left">
+                            <p class="image is-128x128">
+                              <img src="./assets/cpc.png" alt="cpc">
+                            </p>
+                        </figure>
+                        <div class="media-content">
+                            <div class="content">
+                                <h4>Canard PC</h4>
+                                <p class="name-tag">
+                                    <span class="skill" data-tag="# fullstack">#fullstack</span>
+                                    <span class="skill" data-tag="# vanillajs">#vanillajs</span>
+                                    <span class="skill" data-tag="# zend framework">#zend framework</span>
+                                    <span class="skill" data-tag="# mysql/mariadb">#mysql/mariadb</span>
+                                    <span class="skill" data-tag="# apache">#apache</span>
+                                    <span class="skill" data-tag="# debian">#debian</span>
+                                    <span class="skill" data-tag="# iptable">#iptable</span>
+                                    <span class="skill" data-tag="# gant">#gant</span>
+                                    <span class="skill" data-tag="# vim">#vim</span>
+                                    <span class="skill" data-tag="# svn">#svn</span>
+
+                                </p>
+                                <p>
+                                    Site internet iconique du magazine papier Canard PC.<br/>
+                                    <strong>Mission:</strong> Faire le site internet du magazine avec boutique en ligne et gestion des abonnements papier. Ecrire quelques articles ponctuelles autour du jeu vidéo.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="hero is-fluid block-contact" id="contact">
+                <div class="hero-body text-shadow">
+                    <section class="section columns">
+                        <div class="column left-info">
+                        </div>
+                        <div class="column middle-info">
+                            <a href="https://www.linkedin.com/in/cyril-alfaro" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/dbyzero" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://stackoverflow.com/users/1603968/cyril-alfaro" target="_blank"><i class="fab fa-stack-overflow"></i></a>
+                            <a href="mailto:website@dbyzero.com"><i class="far fa-envelope"></i></a>
+                        </div>
+                        <div class="column right-info">
+                            cyril alfaro<br><br>
+                            toulouse, france <i class="fas fa-map-marked-alt"></i><br>
+                            disponible dans 3 mois <i class="far fa-clock"></i>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </section>
+    </body>
+</html>
