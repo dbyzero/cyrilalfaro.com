@@ -11,6 +11,7 @@ section.block-desc {
 
 section.block-desc .hero-body {
     display:flex;
+    margin: 0;
 }
 
 section.block-desc .mainTitle {
@@ -64,21 +65,20 @@ section.block-desc .infoXP {
 
 .XP div.detail_xp {
     font-size:1.7vw;
-    max-width: 1000px;
-    margin: 0 auto;
     flex:1;
     align-items: center;
     justify-content: center;
+    margin: 0 10vw;
 }
 
 .XP div.detail_xp i {
     font-size:4vw;
-    margin-right:1rem;
 }
 
 @media screen and (max-width: 768px) {
     .XP div.detail_xp {
         font-size:1.1rem;
+        flex=direction:column;
     }
     .XP div.detail_xp i {
         font-size:2rem;
