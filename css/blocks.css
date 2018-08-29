@@ -7,6 +7,9 @@ section.block-desc {
     flex:1;
     color:#ddd;
     background-color: rgba(0,0,0,0.6);
+}
+
+section.block-desc .hero-body {
     display:flex;
 }
 
