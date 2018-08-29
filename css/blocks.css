@@ -52,13 +52,13 @@ section.block-desc .infoXP {
 }
 
 .XP div.detail_xp {
-    font-size:1.1rem;
+    font-size:1.7vw;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .XP div.detail_xp i {
-    font-size:2rem;
+    font-size:4vw;
     margin-right:1rem;
 }
 
