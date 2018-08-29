@@ -62,7 +62,7 @@ section.block-desc .infoXP {
     margin-right:1rem;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 768px) {
     .XP div.detail_xp {
         font-size:1.1rem;
     }
