@@ -11,8 +11,6 @@ section.block-desc {
 
 section.block-desc .hero-body {
     display:flex;
-    max-width:1000px;
-    margin: 0 auto;
 }
 
 section.block-desc .mainTitle {
