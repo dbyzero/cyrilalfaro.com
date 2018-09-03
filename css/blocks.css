@@ -11,7 +11,8 @@ section.block-desc {
 
 section.block-desc .hero-body {
     display:flex;
-    margin: 0;
+    max-width:1000px;
+    margin: 0 auto;
 }
 
 section.block-desc .mainTitle {
@@ -68,7 +69,6 @@ section.block-desc .infoXP {
     flex:1;
     align-items: center;
     justify-content: center;
-    margin: 0 10vw;
 }
 
 .XP div.detail_xp i {
@@ -146,10 +146,15 @@ section.block-desc .infoXP {
 
 .block-project {
     color:#ddd;
-    font-family: 'geo';
+    /*font-family: 'geo';*/
     flex:1;
     background-color: rgba(0,0,0,0.6);
     font-size:1.4rem;
+}
+
+.block-project .hero-body {
+    max-width:1000px;
+    margin: 0 auto;
 }
 
 .block-project header {
@@ -211,7 +216,6 @@ section.block-desc .infoXP {
 }
 
 .block-contact .middle-info {
-    font-family: 'geo';
     font-size:1.4rem;
     text-align: center;
     align-items: center;
