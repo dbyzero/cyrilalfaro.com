@@ -27,7 +27,6 @@ section.block-desc .infoXP {
 .block-desc header {
     flex:0;
     font-size:4rem;
-    text-transform: uppercase;
     line-height: 3.6rem;
     padding-bottom:1rem;
 }
@@ -44,9 +43,8 @@ section.block-desc .infoXP {
 }
 
 .block-desc .mainTitle {
-    text-transform: uppercase;
     font-size:2rem;
-    line-height: 2rem;
+    line-height: 3rem;
 }
 
 .XP {
