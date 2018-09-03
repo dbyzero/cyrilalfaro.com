@@ -197,6 +197,11 @@ section.block-desc .infoXP {
     padding: 0 0.2rem;
 }
 
+.block-project .media {
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
 @media screen and (max-width: 768px) {
     .block-project .media {
         flex-direction: column;
